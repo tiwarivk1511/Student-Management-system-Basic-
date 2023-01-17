@@ -3,7 +3,7 @@
 void listStudent()
 {
     ifstream ifobj1;
-    ifobj1.open("storage.dat",ios::binary);
+    ifobj1.open("data\\storage.dat",ios::binary);
     student stu;
 
     if (!ifobj1)

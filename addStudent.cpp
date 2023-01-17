@@ -32,7 +32,10 @@ void addStudent()
         }
 
         of.write(reinterpret_cast<char *>(&tempstu), sizeof(student));
+        system("cls");
+        cout<<"========================================================";
         cout<<endl<<"Student Record stored in File !!"<<endl;
+        cout<<"=======================================================";
         cout << "press enter to input again !!" << endl;
         ch=getch();
     } while (ch == '\n');
